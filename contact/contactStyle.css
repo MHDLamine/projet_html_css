@@ -6,9 +6,6 @@
 }
 body
 {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     background-image: url('img/image.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +32,7 @@ form
     flex-direction: column;
     gap: 1.5rem;
     padding: 20px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     border-radius: 7px;
     border: 2px solid rgb(112, 25, 25);
 
