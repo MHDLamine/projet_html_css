@@ -1,0 +1,42 @@
+body
+{
+    background-image: url('img/image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envoyer
+{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(129, 68, 68);
+    border: none;
+}
+form
+{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+
+}
+#prenom, #Nom, #email
+{
+
+    margin: auto;
+    border-radius: 9px;
+    width: 200px;
+    height: 30px;
+}
+input
+{   width: 100px;
+    height: 20px;
+    border-radius: 4px;
+}
