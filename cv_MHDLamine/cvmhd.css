@@ -89,24 +89,19 @@ top: 200px;
 .box
 {
     border: 2px solid rgb(112, 25, 25);
+<<<<<<< HEAD
+    width: 800px;
+=======
     width: 700px;
+>>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
     height: auto;
     margin: auto;
     display: flex;
 }
 .left
 {
-    width: 40%;
-    background-color:white;
-    color: black;
-    padding: 10px;
-}
-a{
-    text-decoration: none;
-}
-.annee{
-    font-style: italic;
-    font-size: 13px;
+    width: 35%;
+    background-color:white
 }
 .blocleft
 {
@@ -116,21 +111,10 @@ a{
     text-align: center;
 
 }
+>>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
 .right
 {
     width: 65%;
-    background-color: #d5d5d5;
-    padding: 10px;
-}
-.formation, .competences
-{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(112, 25, 25);
-}
-table
-{
-    width: 100%;
     text-align: center;
-    border: 1px dashed rgb(112, 25, 25);
+    background-color: #d5d5d5;
 }
