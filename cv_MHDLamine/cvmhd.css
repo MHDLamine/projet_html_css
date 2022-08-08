@@ -20,7 +20,6 @@ height: auto;
 .left
 {
     width: 35%;
-    text-align: center;
     background-color:white
 }
 .blocleft
@@ -28,6 +27,7 @@ height: auto;
     background-color:#d5d5d5;
     color: rgb(112, 25, 25);
     font-weight: bold;
+    text-align: center;
 
 }
 .right
