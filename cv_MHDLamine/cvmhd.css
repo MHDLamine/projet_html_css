@@ -1,0 +1,31 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+width: 100%;
+height: auto;
+}
+.box
+{
+    border: 2px solid rgb(112, 25, 25);
+    width: 800px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+.left
+{
+    width: 35%;
+    text-align: center;
+    background-color:white
+}
+.right
+{
+    width: 65%;
+    text-align: center;
+    background-color: rgb(112, 25, 25);
+}

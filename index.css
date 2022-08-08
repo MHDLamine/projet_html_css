@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .description{
 
    
@@ -14,3 +15,44 @@ background: #ffffff;
     font-size: 25px;
     font-style: inherit;
 }
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(112, 25, 25);
+    height: 180px;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0px;
+}
+img{
+    border-radius: 60px;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}
+ul li a{
+    color: white;
+    letter-spacing: 0.1rem;
+
+}
+ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.menu li{
+    float: right;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+>>>>>>> e1ba5014ddbf10ad2e9b04ba5e13db724d1dfbb7
