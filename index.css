@@ -4,7 +4,7 @@
 }
 .header{
     background-color: rgb(112, 25, 25);
-    height: 180px;
+    height: 100px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -17,8 +17,8 @@ nav ul li{
 img{
     border-radius: 60px;
     margin: 25px;
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     margin-top: 15px;
 }
 ul li a{
