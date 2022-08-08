@@ -9,7 +9,7 @@
 .c{
     display: inline-block;
     margin: 0;
-    height: 100%;
+    height: fit-content;
 }
 .d{
     font-weight: bold;
@@ -39,4 +39,6 @@ body{
 }
 li{
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
