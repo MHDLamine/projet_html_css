@@ -1,28 +1,10 @@
-<<<<<<< HEAD
-.description{
-
-   
-box-sizing: border-box;
-position: absolute;
-width: 1312px;
-height: 448px;
-left: 291px;
-top: 248px;
-background: #ffffff;
-
-}
-.tex{
-    font-size: 25px;
-    font-style: inherit;
-}
-=======
 *{
     margin: 0px;
     padding: 0px;
 }
 .header{
     background-color: rgb(112, 25, 25);
-    height: 180px;
+    height: 100px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -35,8 +17,8 @@ nav ul li{
 img{
     border-radius: 60px;
     margin: 25px;
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     margin-top: 15px;
 }
 ul li a{
@@ -55,4 +37,3 @@ ul li a:hover{
 .menu li a{
     text-decoration: none;
 }
->>>>>>> e1ba5014ddbf10ad2e9b04ba5e13db724d1dfbb7
