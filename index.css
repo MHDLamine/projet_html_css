@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+.active
+{
+    color: black;
+}
 .header{
     background-color: rgb(112, 25, 25);
     height: 100px;
@@ -31,12 +35,13 @@ ul li a{
 }
 ul li a:hover{
     color: black;
-    text-decoration: underline;
+    
 }
 .menu li{
     float: right;
     padding: 35px;
-}
+}   
+
 .menu li a{
     text-decoration: none;
 }
