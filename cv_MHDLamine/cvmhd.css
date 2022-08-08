@@ -12,7 +12,11 @@ height: auto;
 .box
 {
     border: 2px solid rgb(112, 25, 25);
+<<<<<<< HEAD
     width: 800px;
+=======
+    width: 700px;
+>>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
     height: auto;
     margin: auto;
     display: flex;
@@ -23,9 +27,23 @@ height: auto;
     text-align: center;
     background-color:white
 }
+<<<<<<< HEAD
+=======
+.blocleft
+{
+    background-color:#d5d5d5;
+    color: rgb(112, 25, 25);
+    font-weight: bold;
+
+}
+>>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
 .right
 {
     width: 65%;
     text-align: center;
+<<<<<<< HEAD
     background-color: rgb(112, 25, 25);
+=======
+    background-color: #d5d5d5;
+>>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
 }
