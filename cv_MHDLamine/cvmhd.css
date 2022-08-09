@@ -1,13 +1,90 @@
-*
+/*MENU ADAMA*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.active
 {
+    color: black;
+}
+.header{
+    background-color: rgb(112, 25, 25);
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0px;
+}
+.z{
+    border-radius: 60px;
+    margin: 25px;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+}
+ul li a{
+    color: white;
+    letter-spacing: 0.1rem;
+
+}
+ul li a:hover{
+    color: black;
+    
+}
+.menu li{
+    float: right;
+    padding: 35px;
+}   
+
+.menu li a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+.tex{
+    color: black;
+    font-size: 27px;
+    margin: 50px 120px;
+    text-align: justify;
+}
+img{
+    width: 300px;
+    height: 400px; 
+    border-radius: 25px;
+}
+.a{
+    height: 600px;
+    display: flex;
+    
+    justify-content: center;
+    gap: 25px;
+    background-color: rgb(112, 25, 25);
+    padding: 25px;
+    align-items: center;
+}
+
+
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
 }
 .container
 {
 width: 100%;
 height: auto;
+position: relative;
+top: 200px;
 }
 .box
 {
@@ -26,8 +103,6 @@ height: auto;
     width: 35%;
     background-color:white
 }
-<<<<<<< HEAD
-=======
 .blocleft
 {
     background-color:#d5d5d5;
@@ -41,9 +116,5 @@ height: auto;
 {
     width: 65%;
     text-align: center;
-<<<<<<< HEAD
-    background-color: rgb(112, 25, 25);
-=======
     background-color: #d5d5d5;
->>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
 }
