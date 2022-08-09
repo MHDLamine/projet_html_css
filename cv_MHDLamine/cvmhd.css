@@ -55,11 +55,7 @@ h1{
     margin: 50px 120px;
     text-align: justify;
 }
-img{
-    width: 300px;
-    height: 400px; 
-    border-radius: 25px;
-}
+
 .a{
     height: 600px;
     display: flex;
@@ -85,23 +81,21 @@ width: 100%;
 height: auto;
 position: relative;
 top: 200px;
+z-index: -100;
 }
 .box
 {
     border: 2px solid rgb(112, 25, 25);
-<<<<<<< HEAD
     width: 800px;
-=======
-    width: 700px;
->>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
     height: auto;
     margin: auto;
     display: flex;
 }
 .left
 {
-    width: 35%;
-    background-color:white
+    width: 40%;
+    background-color:white;
+    padding:10px;
 }
 .blocleft
 {
@@ -111,10 +105,37 @@ top: 200px;
     text-align: center;
 
 }
->>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
+.profil
+{
+    text-align: justify;
+}
 .right
 {
-    width: 65%;
-    text-align: center;
+    width: 60%;
     background-color: #d5d5d5;
+    padding:10px;
+}
+.annee
+{
+    margin-right: 35px;
+    font-size: 15px;
+   text-decoration: underline;
+}
+.formation
+{
+    color: rgb(112, 25, 25);
+    font-weight: bold;
+}
+.blocright{
+    background-color:rgb(112, 25, 25);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    border: 1px solid black;
+    height: 40px;
 }
