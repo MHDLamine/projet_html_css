@@ -77,31 +77,76 @@ img{
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-   
+    margin: 0px;
+    padding: 0px;
 }
+.active
+{
+    color: black;
+}
+.header{
+    background-color: rgb(112, 25, 25);
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+>>>>>>> e273e2b7a562a6ac96bd1b0db60f3ff0c74959f9
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0px;
+}
+.z{
+    border-radius: 60px;
+    margin: 25px;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+}
+ul li a{
+    color: white;
+    letter-spacing: 0.1rem;
+
+}
+ul li a:hover{
+    color: black;
+    
+}
+.menu li{
+    float: right;
+    padding: 35px;
+}   
+
+.menu li a{
+    text-decoration: none;
+}
+
 .container
 {
 width: 100%;
 height: auto;
 position: relative;
 top: 200px;
+margin-top: 200px;
 }
 .box
 {
     border: 2px solid rgb(112, 25, 25);
-<<<<<<< HEAD
     width: 800px;
-=======
-    width: 700px;
->>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
     height: auto;
     margin: auto;
     display: flex;
 }
 .left
 {
-    width: 35%;
-    background-color:white
+    width: 40%;
+    background-color:white;
+    padding:10px;
 }
 .blocleft
 {
@@ -111,10 +156,40 @@ top: 200px;
     text-align: center;
 
 }
->>>>>>> 554a3f60fa2c9de7bcf89409f8648bfdc1da1711
+.profil
+{
+    text-align: justify;
+}
 .right
 {
     width: 65%;
     text-align: center;
     background-color: #d5d5d5;
+    width: 60%;
+    background-color: #d5d5d5;
+    padding:10px;
+}
+.annee
+{
+    margin-right: 35px;
+    font-size: 15px;
+   text-decoration: underline;
+}
+.formation
+{
+    color: rgb(112, 25, 25);
+    font-weight: bold;
+}
+.blocright{
+    background-color:rgb(112, 25, 25);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    border: 1px solid black;
+    height: 40px;
 }
