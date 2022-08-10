@@ -57,26 +57,32 @@ h1{
 img{
     width: 300px;
     height: 400px; 
-    border-radius: 25px;
+    border-radius: 10px;
 }
 .a{
     height: 600px;
     display: flex;
-    
     justify-content: center;
-    gap: 25px;
+    gap: 35px;
     background-color: rgb(112, 25, 25);
     padding: 25px;
     align-items: center;
 }
 h6{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 p{
     color: white;
     font-size: 18px;
 
+}
+.pre{
+    text-decoration: none;
+    color: burlywood;
+}
+.pre:hover{
+    color: black;
 }
 main{
     width: 100%;
@@ -96,3 +102,4 @@ footer{
 body{
     margin: 0;
 }
+
