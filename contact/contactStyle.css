@@ -110,7 +110,7 @@ body
     background-image: url('img/im.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 100%;
     
 }
 .container
@@ -119,7 +119,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     top: 150px;
 }
 
@@ -174,8 +173,24 @@ textarea
     border: none;
     font-weight: bolder;
     
-}.envoyer:hover
-            {
-            background-color: black;   
-            color: white;          
-            }
+}
+.envoyer:hover
+{
+            
+    background-color: black;   
+    color: white;          
+}
+main{
+    margin: 0;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+}
