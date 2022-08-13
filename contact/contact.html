@@ -3,40 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <link rel="stylesheet" href="contactStyle.css">
+    <link rel="stylesheet" href="../menu_css/menu_style.css">
     <title>Contact</title>
 </head>
 <body>
-    <!--MENU CODER PAR ADAMA-->
     <header>
-        <div class="header">
-            <nav>
-                <ul class="menu">
-                    <img src="../simplon.png" alt="image simplon" class="z">
-                    <li><a href="#" class="active">Contact</a></li>
-                    <li><a href="../CV__CHEIKH/cvcheikhsall.html">CV Cheikh Sall</a></li>
-                    <li><a href="../cv_adama/adama.html">CV Adama Dieye</a></li>
-                    <li><a href="../cv_MHDLamine/cvmhd.html">CV Mouhamed Ngom</a></li>
-                    <li><a href="../cvfall/cv.html">CV Mouhamed Fall</a></li>
-                    <li><a href="../index.html">Accueil</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+        <nav>
+            <img src="../simplon.png" alt="Logo de simplon" class="imgmenu">
+            <ul class="menu">
+                <li class="listmenu"> <a class="lienmenu" href="../index.html">Acceuil</a> </li>
+                <div class="listcv">
+                <li class="listmenu"><a class="lienmenu" href="#" >Les CV</a></li>
+                    <ul class="cv">
+                    <li class="cvlistmenu" ><a class="cvlienmenu" href="../cv_MHDLamine/cvmhd.html" >Mouhamed Lamine</a></li>
+                    <li class="cvlistmenu"  ><a class="cvlienmenu" href="../CV__CHEIKH/cvcheikhsall.html" >Cheikh Sall</a></li>
+                    <li class="cvlistmenu"  ><a class="cvlienmenu" href="../cvfall/cv.html" >Mouhamed Fall</a></li>
+                    <li class="cvlistmenu"  ><a class="cvlienmenu" href="../cv_adama/adama.html" >Adama Dieye</a></li>
+                    </ul>
+                </div>
+                <li class="listmenu"><a class="lienmenu"  href="#" style="color:black ;">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
 
     <div class="container">
         <div class="box">
             <form action="" autocomplete="on">
+                <label for="prenom">Prenom</label><br>
                 <input type="text" id="prenom" required placeholder="Prenom" ><br>
+                <label for="Nom">Nom</label><br>
                 <input type="text" id="Nom" required placeholder="Nom"><br>
+                <label for="numero">Téléphone</label><br>
+                <input type="tel" id="numero" required placeholder="00221 77 345 34 01" pattern="[0-9]{5}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><br>
+                <label for="email">Adresse mail</label><br>
                 <input type="email" id="email" required placeholder="Adresse mail"><br>
-                <textarea name="message" rows="8" cols="35" placeholder="votre message..."></textarea><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="8" cols="35" placeholder="votre message..."></textarea><br>
                 <input type="submit" value="Envoyer" class="envoyer">
             </form>
         </div>
     </div>
+    <footer><p>© Copyright Simplon. Designed and Developed by <strong>GROUPE 3</strong></p></footer>
 </body>
 </html>

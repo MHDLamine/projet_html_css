@@ -1,35 +1,4 @@
-/* MENU ADAMA */
-*{
-    margin: 0px;
-    padding: 0px;
-}
-.active
-{
-    color: black;
-}
-.header{
-    background-color: rgb(112, 25, 25);
-    height: 100px;
-    font-weight: bold;
-    font-size: 20px;
-    position: fixed;
-    margin-bottom: 100px;
-    width: 100%;
-    
-}
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 0px;
-}
-.z{
-    border-radius: 60px;
-    margin: 25px;
-    width: 75px;
-    height: 75px;
-    margin-top: 15px;
-}
+
 ul li a{
     color: white;
     letter-spacing: 0.1rem;
@@ -100,7 +69,7 @@ main{
     border: solid rgb(112, 25, 25);
     border-radius: 3px;
     height: 187px;
-    margin-left: 600px;
+    margin-right: -20px;
    }
    .v{
     display: flex;
@@ -120,6 +89,8 @@ main{
 .m{
     color: white;
     font-size: 18px;
+    margin-left: 190px;
+   
 }
 
    
