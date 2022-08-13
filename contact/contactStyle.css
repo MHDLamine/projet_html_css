@@ -76,7 +76,6 @@ footer{
     margin: 0;
     box-sizing: border-box;
 }
-
 .container
 {
     width: 100%;
@@ -85,7 +84,9 @@ footer{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 150px;
+    background-image: url('img/im.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form
@@ -145,3 +146,8 @@ textarea
             background-color: black;   
             color: white;          
             }
+label{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
