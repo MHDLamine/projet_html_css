@@ -88,6 +88,7 @@ footer{
     justify-content: center;
     align-items: center;
     bottom: 0;
+    position: relative;
 }
 .m{
     color: white;
